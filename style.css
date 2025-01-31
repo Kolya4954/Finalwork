@@ -582,9 +582,7 @@ padding: 21px 41px 21px 21px ;
 margin-bottom: 40px;
 flex-basis:calc((100% - 40px) /3);
 position: relative;
-}
-
-    
+}  
 
 .recent-subject{
     color: var(--title-color);
