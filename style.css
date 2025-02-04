@@ -63,6 +63,7 @@ body {
 .dream {
   background-image: url(./images/bgc.webp);
   background-repeat: no-repeat;
+  background-position: center;
   padding: 195px 0px 0px 0px;
 }
 
@@ -266,10 +267,14 @@ body {
   padding-bottom: 140px;
 }
 
+
+
 .container-review {
   width: 1200px;
   background: var(--review-bcg);
   border-radius: 70px;
+  padding-bottom: 121px;
+  padding-top: 103px;
 }
 .review-title {
   color: var(--title-color);
@@ -280,7 +285,6 @@ body {
   font-weight: 400;
   line-height: 1.3; /* 130% */
   letter-spacing: 0.22px;
-  padding-top: 103px;
 }
 
 .review-title2 {
@@ -292,14 +296,13 @@ body {
   font-weight: 400;
   line-height: 1.3; /* 130% */
   letter-spacing: 0.22px;
-  padding-bottom: 47px;
+  margin-bottom: 47px;
 }
 
 .review-list {
   display: flex;
   gap: 18px;
   justify-content: center;
-  padding-bottom: 121px;
 }
 
 .review-item {
@@ -374,12 +377,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  row-gap: 60px;
   /* justify-content: center; */
 }
 
-.project-item {
-  margin-bottom: 60px;
-}
 
 .project-title {
   color: var(--title-color);
@@ -634,6 +635,8 @@ body {
   width: 1200px;
   border-radius: 70px;
   background: var(--join-bcg);
+  padding-top: 100px;
+  padding-bottom: 95px;
 }
 
 .join-title {
@@ -645,7 +648,6 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.22px;
-  padding-top: 100px;
 }
 
 .join-text {
@@ -676,7 +678,6 @@ body {
   letter-spacing: 0.22px;
   border: none;
   margin-top: 31px;
-  margin-bottom: 95px;
   margin-left: 474px;
   margin-right: 485px;
 }
@@ -685,6 +686,10 @@ body {
   padding-top: 130px;
   padding-bottom: 80px;
   display: flex;
+}
+
+.footer-info{
+  padding-right: 83px;
 }
 
 .footer-text {
@@ -702,8 +707,6 @@ body {
 .footer-list {
   display: flex;
   gap: 40px;
-  padding-bottom: 196px;
-  padding-right: 228px;
 }
 
 .pages-title {
@@ -714,13 +717,12 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.22px;
-  padding-bottom: 21px;
+  margin-bottom: 21px;
 }
 
-.pages-list {
-  margin-right: 97px;
+.pages{
+    margin-right: 97px;
 }
-
 
 .pages-item {
   padding-bottom: 30px;
@@ -751,7 +753,7 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.22px;
   margin-right: 137px;
-  padding-bottom: 21px;
+  margin-bottom: 21px;
 }
 
 .explore-item {
@@ -778,7 +780,7 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.22px;
-  padding-bottom: 22px;
+  margin-bottom: 22px;
 }
 
 .contact-item {
