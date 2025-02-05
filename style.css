@@ -726,19 +726,19 @@ body {
 }
 
 .pages-item:nth-child(1) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .pages-item:nth-child(2) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .pages-item:nth-child(3) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .pages-item:nth-child(4) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .pages-link:hover{
@@ -772,19 +772,19 @@ body {
 }
 
 .explore-item:nth-child(1) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .explore-item:nth-child(2) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .explore-item:nth-child(3) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .explore-item:nth-child(4) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .explore-link {
@@ -811,11 +811,11 @@ body {
 }
 
 .contact-item:nth-child(1) {
-  padding-bottom: 29px;
+  margin-bottom: 29px;
 }
 
 .contact-item:nth-child(2) {
-  padding-bottom: 29px;
+  margin-bottom: 29px;
 }
 
 .contact-link {
