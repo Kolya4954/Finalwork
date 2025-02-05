@@ -65,6 +65,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding: 195px 0px 0px 0px;
+  background-size: cover;
 }
 
 .dream-title {
@@ -724,7 +725,16 @@ body {
     margin-right: 97px;
 }
 
-.pages-item {
+.pages-item:nth-child(1) {
+  padding-bottom: 30px;
+}
+.pages-item:nth-child(2) {
+  padding-bottom: 30px;
+}
+.pages-item:nth-child(3) {
+  padding-bottom: 30px;
+}
+.pages-item:nth-child(4) {
   padding-bottom: 30px;
 }
 .pages-link:hover{
@@ -756,7 +766,16 @@ body {
   margin-bottom: 21px;
 }
 
-.explore-item {
+.explore-item:nth-child(1) {
+  padding-bottom: 30px;
+}
+.explore-item:nth-child(2) {
+  padding-bottom: 30px;
+}
+.explore-item:nth-child(3) {
+  padding-bottom: 30px;
+}
+.explore-item:nth-child(4) {
   padding-bottom: 30px;
 }
 
@@ -783,7 +802,10 @@ body {
   margin-bottom: 22px;
 }
 
-.contact-item {
+.contact-item:nth-child(1) {
+  padding-bottom: 29px;
+}
+.contact-item:nth-child(2) {
   padding-bottom: 29px;
 }
 
