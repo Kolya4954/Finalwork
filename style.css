@@ -64,7 +64,7 @@ body {
   background-image: url(./images/bgc.webp);
   background-repeat: no-repeat;
   background-position: center;
-  padding: 195px 0px 0px 0px;
+  padding: 195px 0px 260px 0px;
   background-size: cover;
 }
 
@@ -102,7 +102,6 @@ body {
   letter-spacing: 0.72px;
   border: none;
   border-radius: 15px;
-  margin-bottom: 260px;
 }
 
 .features {
@@ -560,7 +559,7 @@ body {
   height: 515px;
   border-radius: 62px;
   border: 1px solid var(--list-bcg);
-  padding: 21px 41px 21px 21px;
+  padding: 21px 21px 21px 21px;
   flex-basis: calc((100% - 40px) / 3);
   position: relative;
 }
@@ -700,8 +699,8 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.22px;
-  padding-top: 15px;
-  padding-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   width: 326px;
 }
 
