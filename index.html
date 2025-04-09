@@ -17,6 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -31,19 +36,19 @@
         /></a>
         <nav class="navigation">
           <ul class="header-list">
-            <li class="header-item">
+            <li class="header-item" data-aos="fade-down">
               <a class="header-link" href="#">Home</a>
             </li>
-            <li class="header-item">
+            <li class="header-item" data-aos="fade-down">
               <a class="header-link" href="#">About Us</a>
             </li>
-            <li class="header-item">
+            <li class="header-item" data-aos="fade-down">
               <a class="header-link" href="#">Services</a>
             </li>
-            <li class="header-item">
+            <li class="header-item" data-aos="fade-down">
               <a class="header-link" href="#">Pages</a>
             </li>
-            <li class="header-item">
+            <li class="header-item" data-aos="fade-down">
               <a class="header-link" href="#">Contact Us</a>
             </li>
           </ul>
@@ -53,42 +58,44 @@
     <main>
       <section class="dream">
         <div class="container">
-          <h1 class="dream-title">Let's Create Your Dream Interior</h1>
-          <p class="dream-desk">
-            The world needs innovators and problem solvers who turn challenges
-            into greater opportunities.
-          </p>
-          <button class="dream-button" type="button" data-modal-open>Get Started</button>
+          <div class="animate__animated animate__bounce">
+            <h1 class="dream-title" data-aos="flip-left">Let's Create Your Dream Interior</h1>
+            <p class="dream-desk">
+              The world needs innovators and problem solvers who turn challenges
+              into greater opportunities.
+            </p>
+            <button class="dream-button" type="button" data-modal-open>Get Started</button>
+          </div>
         </div>
       </section>
       <section class="features">
         <div class="container">
           <ul class="features-list">
             <li class="features-item">
-              <h2 class="features-title">Interior Design</h2>
-              <p class="features-desk">
+              <h2 class="features-title" data-aos="flip-left">Interior Design</h2>
+              <p class="features-desk" data-aos="fade-right">
                 Enhancing the interior to achieve a healthier environment for
                 the people using right space.
               </p>
-              <button class="features-btn">View More
+              <button class="features-btn" data-aos="flip-down">View More
               </button>
             </li>
             <li class="features-item">
-              <h2 class="features-title">Furniture</h2>
-              <p class="features-desk">
+              <h2 class="features-title" data-aos="flip-left">Furniture</h2>
+              <p class="features-desk" data-aos="fade-right">
                 Movable articles that are used to make a room or building
                 suitable for living or working.
               </p>
-              <button class="features-btn">View More
+              <button class="features-btn" data-aos="flip-down">View More
               </button>
             </li>
             <li class="features-item">
-              <h2 class="features-title">Flooring</h2>
-              <p class="features-desk">
+              <h2 class="features-title" data-aos="flip-left">Flooring</h2>
+              <p class="features-desk" data-aos="fade-right">
                 Thin object any finished material applied over a floor structure
                 to provide a walking surface.
               </p>
-              <button class="features-btn">View More
+              <button class="features-btn" data-aos="flip-down">View More
               </button>
             </li>
           </ul>
@@ -97,8 +104,8 @@
       <section class="call">
         <div class="container call-box">
           <div class="call-text">
-            <h2 class="call-title">We Tackle The Most Challenging Designs</h2>
-            <p class="call-desk">
+            <h2 class="call-title" data-aos="zoom-in">We Tackle The Most Challenging Designs</h2>
+            <p class="call-desk" data-aos="zoom-in">
               The world needs innovators and problem solvers who turn challenges
               into greater opportunities. We have an insatiable curiosity about
               transformative trends challenging the status.
@@ -107,7 +114,7 @@
               <a class="call-link" href="tel:012345678"></a>
               <div>
                 <a href="tel:012345678" class="call-tel">012345678</a>
-                <p class="call-subtitle">Call Us Anytime</p>
+                <p class="call-subtitle" data-aos="zoom-in-left">Call Us Anytime</p>
               </div>
             </div>
             <button class="call-button" type="button">
@@ -120,11 +127,11 @@
       <section class="review">
         <div class="container-review">
           <div class="review-titles"> 
-            <h2 class="review-title">What the People Thinks</h2>
-            <h2 class="review-title2">About Interno</h2>
+            <h2 class="review-title" data-aos="fade-down-right">What the People Thinks</h2>
+            <h2 class="review-title2" data-aos="fade-down-right">About Interno</h2>
           </div>
           <ul class="review-list">
-            <li class="review-item">
+            <li class="review-item" data-aos="fade-right">
               <div class="review-box">
                 <img class="review-image" src="./images/lisa.webp" alt="lisa" />
                 <div>
@@ -137,7 +144,7 @@
                 background & education.
               </p>
             </li>
-            <li class="review-item">
+            <li class="review-item" data-aos="fade-right">
               <div class="review-box">
                 <img
                   class="review-image"
@@ -154,7 +161,7 @@
                 project’s.
               </p>
             </li>
-            <li class="review-item">
+            <li class="review-item" data-aos="fade-right">
               <div class="review-box">
                 <img
                   class="review-image"
@@ -222,20 +229,20 @@
       </section>
       <section class="project">
         <div class="container">
-          <h2 class="project-title">Recent Projects</h2>
-          <p class="project-subtitle">
+          <h2 class="project-title" data-aos="fade-up">Recent Projects</h2>
+          <p class="project-subtitle" data-aos="fade-up">
             With tools to make every part of your process more human and a
             support excited to help you, getting started with us never been
             easier team.
           </p>
           <ul class="project-list">
-            <li class="project-item">
+            <li class="project-item" data-aos="fade-right">
               <img
                 class="project-image"
                 src="./images/divan.webp"
                 alt="room with plants"
               />
-              <div class="project-boxes">
+              <div class="project-boxes" >
                 <div class="project-box">
                   <h3 class="project-subject">Winery Dry Creek Building</h3>
                   <p class="project-desk">Art Modern</p>
@@ -244,7 +251,7 @@
                 </button>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project-item" data-aos="fade-left">
               <img src="./images/stil.webp" alt="room with table" />
               <div class="project-boxes">
                 <div class="project-box">
@@ -255,7 +262,7 @@
                 </button>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project-item" data-aos="fade-right">
               <img src="./images/tymbochka.webp" alt="bed shelf" />
               <div class="project-boxes">
                 <div class="project-box">
@@ -266,7 +273,7 @@
                 </button>
               </div>
             </li>
-            <li class="project-item">
+            <li class="project-item" data-aos="fade-left">
               <img src="./images/lishko.webp" alt="room with bed" />
               <div class="project-boxes">
                 <div class="project-box">
@@ -318,7 +325,7 @@
             design project works.
           </p>
           <ul class="recent-list">
-            <li class="recent-item">
+            <li class="recent-item" data-aos="fade-up-left">
               <img
                 class="recent-image"
                 src="./images/kretakynya.webp"
@@ -335,7 +342,7 @@
                 </div>
               </div>
             </li>
-            <li class="recent-item">
+            <li class="recent-item" data-aos="fade-up-left">
               <img
                 class="recent-image"
                 src="./images/superkyxnya.webp"
@@ -350,7 +357,7 @@
                 </button>
               </div>
             </li>
-            <li class="recent-item">
+            <li class="recent-item" data-aos="fade-up-left">
               <img class="recent-image" src="./images/sirakyxnya.webp" alt="" />
               <h3 class="recent-subject">
                 Tips To Increase The Interior Value Of Your House
@@ -361,7 +368,7 @@
                 </button>
               </div>
             </li>
-            <li class="recent-item">
+            <li class="recent-item" data-aos="fade-up-left">
               <img
                 class="recent-image"
                 src="./images/krasivakuhnya.webp"
@@ -376,7 +383,7 @@
                 </button>
               </div>
             </li>
-            <li class="recent-item">
+            <li class="recent-item" data-aos="fade-up-left">
               <img class="recent-image" src="./images/kyxnya.webp" alt="" />
               <h3 class="recent-subject">
                 Get Solution For Building Construction Work
@@ -387,7 +394,7 @@
                 </button>
               </div>
             </li>
-            <li class="recent-item">
+            <li class="recent-item" data-aos="fade-up-left">
               <img class="recent-image" src="./images/bilakyxnya.webp" alt="" />
               <h3 class="recent-subject">
                 Attain The Best Finish For The Kitchen Cabinets
@@ -401,7 +408,7 @@
           </ul>
         </div>
       </section>
-      <section class="join">
+      <section class="join" data-aos="flip-up">
         <div class="container-join">
           <div class="join-texts">
             <h2 class="join-title">Wanna join the interno?</h2>
@@ -537,5 +544,9 @@
      </div>
     </div>
     <script src="./js/modal.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
